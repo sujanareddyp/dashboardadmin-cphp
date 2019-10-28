@@ -1,0 +1,1 @@
+http://localhost/acodeigniterpractice3/admin/index.php/index.php

@@ -1,0 +1,52 @@
+Models: deals with the database queries.
+views->:allldesgn pages will be insides vies folder
+controller:acting as an intermediator between models and views-
+
+Note:
+1)No page inside views is called directly, it is called through the controller function
+2) every controller must extend the parent class CI_controller
+3)every controller must have 1st function as index()
+4)you cannot redeclare the same function inside a controller twice.
+
+How to call the page in codeigniter :
+
+->localhost/name of folder/index.php/nameof controller/function which is calling that page
+--> here index.php is nothing but $config['index_page'] = 'index.php';
+ written inside config file of config folder. we can set this to blank 
+ if and only if we write mod_rewrite code,till then it would give out error 
+ if u set  it to blank.
+ 
+ configuration settings of codeigniter
+ 
+	 for configuration settings u have go to application->config folder
+		in which u have to make changes in following files:
+		
+		1)config.php file
+			a)set the base_url at line 26
+			$config['base_url'] = 'http://localhost/acodeigniterpractice/';
+			
+			b)set the encryption key at 327
+			$config['encryption_key'] = 'abcd
+			we set this encryption key as we will be dealing with session .
+			
+			
+		2)constants.php file
+
+			define a constant inthis file at line no 32
+			define('BASEURL','http://localhost/acodeigniterpractice/');
+			
+		3)database.php file
+			here we mention the databse setting once the database is created.
+			hostname' => 'localhost',
+			'username' => 'root',
+			'password' => '',
+			'database' => '',
+			
+		4)routes.php
+			this is the file where we maintain routes as well mention the default 
+			controller name .
+			
+			
+			
+		
+		

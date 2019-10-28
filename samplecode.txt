@@ -1,0 +1,18 @@
+
+code for controller
+
+function __construct() {
+	parent::__construct();
+	$this->load->model('user_model');
+	$this->load->library('session');
+	}
+
+=============================================================================================
+
+code for model
+
+var $db;//create a object variable for database
+		function __construct() {
+		parent::__construct();
+		$this->db = $this->load->database('default', TRUE);//db connection
+		}	

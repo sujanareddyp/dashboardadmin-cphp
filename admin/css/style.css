@@ -1,0 +1,16 @@
+body{background:url(../assets/image/bg.jpg);}
+	.leftpanel{background:url(../assets/image/bg1.jpg);min-height:800px;padding:0;margin:0;border-radius:6px;}
+	.topbar{background:black;height:80px;}
+	.creation{margin:0;padding:0;}
+	.panel-primary{ background: linear-gradient(to left,#c8953f,#c8c290,#e5bb5e);}
+	.panel-heading{background:linear-gradient(to left,#272b2a,#7f7574,#272b2a);}
+	.list-group-item{background:transparent;color:white;}
+	.list-group-item:hover{cursor:pointer;}
+	.list-group-item:hover{border-right:6px solid orange;}
+	.list-group-item.active{background:linear-gradient(to left,#272b2a,#7f7574,#272b2a);font-size:30px;border-color:#ffffff;}
+	.list-group-item.active:hover{border-color:#ffffff;}
+	.list{color:white;}
+	.list:hover{text-decoration:none;color:white;}
+	.bgh1{text-align:center;padding:50px;margin:0;color:black;}
+	.glyphicon{color: #3e453e;}
+	.active1{background:green;}
